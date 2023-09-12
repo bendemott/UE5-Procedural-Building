@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+
 
 #include "DynamicBuilding.h"
 #include <functional> // std::hash
@@ -23,7 +23,10 @@
 
 void ADynamicBuilding::ReceiveRebuildAll()
 {
-	// call all the function pointers that compose rebuilding.
+	// compose rebuilding.
+	// TODO: eventually the set of calls to compose constructing the building will be based on different
+	// options, I'll dynamically call the methods of construction depending on what features are selected
+	// (or something like that so it's more flexible in general)
     Generate();
     UE_LOG(LogTemp, Warning, TEXT("Procedural Generation Complete"));
 }
