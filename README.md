@@ -3,18 +3,21 @@ This small project uses `UDynamicMesh` objects and the corresponding geometry AP
 
 The project is entirely written in C++ and uses a single Actor placed in the level to render building geometry dynamically.
 
-<img src="docs/image/building-finished-1.png"
-     alt="Building"
-     style="margin-right: 10px; width: 600px; height: 700px; object-fit: none" />
 <img src="docs/image/building-finished-3.png"
      alt="Building"
-     style="margin-right: 10px; width: 600px; height: 700px; object-fit: none" />
+     style="max-width: 600px;" />
+
 <img src="docs/image/building-finished-2.png"
      alt="Building"
-     style="margin-right: 10px; width: 600px; height: 700px; object-fit: none" />
+     style="max-width: 600px;" />
+
+<img src="docs/image/building-finished-1.png"
+     alt="Building"
+     style="max-width: 600px;" />
+
 <img src="docs/image/building-wip-2.png"
      alt="Building"
-     style="margin-right: 10px; width: 600px; height: 700px; object-fit: none" />
+     style="max-width: 600px;" />
 
 ## About the Project 
 This project was a proof of concept to understand performance, pitfalls, and to develop and understanding of the procedural tools available in UE5.
